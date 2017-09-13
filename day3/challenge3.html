@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Video</title>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+		
+        #container {
+            width: 1000px;
+            padding: 10px;
+            height: 100%;
+        }
+            
+        .box{
+			display:block;
+			width: 100%;
+			border-radius: 10px;
+			font-family: Roboto;
+			font-size: 16px;  
+			text-align: left;
+        }
+				
+		#video {
+	        position: block;
+	       -webkit-filter: grayscale(.6) contrast(1.2);
+			   
+		}
+		
+		
+		</style>
+            
+	</head>
+	<body>
+	    <div id="container">
+	    <div id="video" class="box"> 
+	    <h1>Video</h1>
+	    <video width="1000" controls="controls" preload="auto" loop muted>
+	        <source src="video/Model3.mp4">
+	    </video>
+	   
+	   </div>
+	</div>
+	</body>
+</html>

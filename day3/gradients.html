@@ -12,20 +12,68 @@
             height: 100%;
         }
             
-        .box{
-			display:block;
-			width: 100%;
-			border-radius: 10px;
-			font-family: Roboto;
-			font-size: 16px;  
-			text-align: left;
-        }
 				
 		#gradient {
-	        position: block;
 	        height:50px;
-	        width: 100px;
-	        background: linear-gradient(to right, #F0C27B, #4B1248);
+	        width: 400px;
+	        
+	        background: linear-gradient(-45deg, rgba(0,0,0,0), red);
+	        margin: 10px;
+			   
+		}
+		
+		#gradient2 {
+	        height:50px;
+	        width: 400px;
+	        
+	        background: linear-gradient(to right, red, #4B1248);
+	        margin: 10px;
+		}
+		
+			#gradient3 {
+	        height:50px;
+	        width: 400px;
+	        background: linear-gradient(-45deg, #7F0080, #FF9999);
+	        margin: 10px;
+			   
+		}
+		
+			#gradient4 {
+	        height:50px;
+	        width: 400px;
+	        
+	        background: linear-gradient(to right, #9F140A, #7F0080, #FF9999);
+	        margin: 10px;
+			   
+		}
+		
+		#gradient5 {
+	        height:50px;
+	        width: 400px;
+	        
+	        background: radial-gradient(#7F0080, #FF9999);
+	        margin: 10px;
+			   
+		}
+		
+			#gradient6 {
+	        height:50px;
+	        width: 400px;
+	        background: linear-gradient(to right, red, yellow, green, blue);
+	        margin: 10px;
+	        text-align: center;
+	        
+			   
+		}
+		
+		#gradient7 {
+	        height:50px;
+	        width: 400px;
+	        background: linear-gradient(to right, red, yellow, green, blue);
+	        margin: 10px;
+	        text-align: center;
+	        box-shadow: 10px 10px 5px #888888;
+	  
 			   
 		}
 		
@@ -36,9 +84,21 @@
 	<body>
 	    <div id="container">
 	    <div id="gradient" class="box"> 
-	   
-	    
-	   </div>
+	    </div>
+	    <div id="gradient2" class="box">
+	    </div>
+	    <div id="gradient3" class="box">
+	    </div>
+	    <div id="gradient4" class="box">
+	    </div>
+	    <div id="gradient5" class="box">
+	    </div>
+	    <div id="gradient6" class="box">
+	        <h2>A box with Gradient</h2>
+	    </div>
+	    <div id="gradient7" class="box">
+	        <h2>A box with Gradient</h2>
+	    </div>
 	</div>
 	</body>
 </html>

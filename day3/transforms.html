@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Gradients</title>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+		
+        #container {
+            width: 800px;
+            padding: 10px;
+            height: 100%;
+        }
+        
+        .box{
+				display:block;
+				margin: 10 px;
+				border-radius: 10px;
+				font-family: Arial;
+				font-size: 20px;
+				text-align: center;
+				padding: 30px;
+			}
+            
+				
+		#transform {
+	        height:50px;
+	        width: 400px;
+	        background: linear-gradient(-45deg, rgba(0,0,0,0), red);
+	        margin: 10px;
+			   
+		}
+		
+		#transform2 {
+	        height:50px;
+	        width: 400px;
+	        background: linear-gradient(to right, red, #4B1248);
+	        margin: 10px;
+	        transform: translate(200px, 1px);
+		}
+		
+		#transform2:hover {
+	        height:50px;
+	        width: 400px;
+	        background: linear-gradient(to right, red, #4B1248);
+	        margin: 10px;
+	        transform: rotateY(30deg);
+	        transition: 2s ease-in;
+		}
+		
+		
+			#transform3 {
+	        height:50px;
+	        width: 400px;
+	        background: linear-gradient(-45deg, #7F0080, #FF9999);
+	        margin: 10px;
+	        transform: rotate(10deg);
+			   
+		}
+		
+		 #transform3:hover {
+		    height:50px;
+	        width: 400px;
+	        background: linear-gradient(-45deg, red, red);
+	        margin: 10px;
+		    transform: rotate(10deg);
+		    transition: background-color 2s ease-out 1s;
+
+		  
+		}
+		
+			#transform4 {
+	        height:50px;
+	        width: 400px;
+	        background: linear-gradient(to right, #9F140A, #7F0080, #FF9999);
+	        margin: 10px;
+	        transform: scale(.5, .5);
+			   
+		}
+		
+			#transform4:hover {
+	        height:50px;
+	        width: 400px;
+	        background: linear-gradient(to right, #9F140A, #7F0080, #FF9999);
+	        margin: 10px;
+	        transform: rotateX(90deg);
+	        transition: transform 3s ease;
+			   
+		}
+		
+		#transform5 {
+	        height:50px;
+	        width: 400px;
+	        background: radial-gradient(#7F0080, #FF9999);
+	        margin: 10px;
+	        transform: skew(5deg, 10deg);
+	  
+			   
+		}
+		
+		#transform5:hover {
+	        height:50px;
+	        width: 400px;
+	        background: radial-gradient(#7F0080, #FF9999);
+	        margin: 10px;
+	        transform: scale(.5, .5);
+	        transition: transform 2s ease;
+	  
+			   
+		}
+		
+		</style>
+            
+	</head>
+	<body>
+	    <div id="container">
+	    <div id="transform" class="box"> 
+	        <h2>Box</h2>
+	    </div>
+	    <div id="transform2" class="box">
+	        <h2>I am translated</h2>
+	    </div>
+	    <div id="transform3" class="box">
+	        <h2>I am rotated</h2>
+	    </div>
+	    <div id="transform4" class="box">
+	        <h2>I am scaled</h2>
+	    </div>
+	    <div id="transform5" class="box">
+	        <h2>I am skewed</h2>
+	    </div>
+	    
+	</div>
+	</body>
+</html>
