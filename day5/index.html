@@ -8,6 +8,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 
 		<link rel="stylesheet" type="text/css" href="reset.css">
+        
         <style type="text/css">
 		nav{
 			width: 100%;
@@ -31,7 +32,7 @@
 			flex:1;
 			height: 30px;
 			font-family: Dosis;
-			padding:20px 20px 20px 20px;
+			padding: 20px;
 			text-align: center;
 			font-size: 2em;
 			border-bottom:1px solid white;
@@ -41,7 +42,7 @@
 		.navItem:hover {
                 color: #FE8532;
                 transition: all .3s ease;
-            }
+        }
             
         
 		#logoNav{
@@ -58,50 +59,50 @@
 			    flex-direction: column;
 			    justify-content: center;
 		
-			}
+		}
 			
-			.landing-message{
-			    flex: 1;
-			    align-items: center;
-			    font-weight: bold;
-			    font-family: Amatic SC;
-			    font-size: 90px;
-			    text-align: center;
-			    margin-bottom: 50px;
-			    margin-top: 50px;
+		.landing-message{
+			flex: 1;
+			align-items: center;
+			font-weight: bold;
+			font-family: Amatic SC;
+			font-size: 90px;
+			text-align: center;
+			margin-bottom: 50px;
+			margin-top: 50px;
 			    
-			}
+		}
 			
-			#food{
-			   flex-direction: column;
-			   justify-content: center; 
-			}
+		#food{
+			flex-direction: column;
+			justify-content: center; 
+		}
 			
-			.picture{
-			    flex-direction: column;
-			    justify-content: center;
-			    background-color: #FDE3C8;
-			    margin: 20px;
-			}
+		.picture{
+			flex-direction: column;
+			justify-content: center;
+			background-color: #FDE3C8;
+			margin: 20px;
+		}
 			
-			.picture h2{
-			    font-family: Dosis;
-			    font-size: 30px;
-			    font-weight: bold;
-			    margin: 10px;
-			    padding-left: 10px;
-			}
+		.picture h2{
+			font-family: Dosis;
+			font-size: 30px;
+			font-weight: bold;
+			margin: 10px;
+			padding-left: 10px;
+		}
 			
-			.picture img{
-			   width: 100%;
-			}
+		.picture img{
+			width: 100%;
+		}
 			
-			.picture p{
-			    font-family: Roboto;
-			    font-size: 22px;
-			    margin: 10px;
-			    padding: 10px;
-			}
+		.picture p{
+			font-family: Roboto;
+			font-size: 22px;
+			margin: 10px;
+			padding: 10px;
+		}
 		
 
 		@media screen and (min-width: 735px){
@@ -110,17 +111,17 @@
 			    align-items: center;
 				height: 100px;
 			}
+			
 			a{
 				border: 0px;
 				font-size: 1.5em;
-
-			}
+            }
+            
 			#logoNav{
 				font-size: 2.5em;
 				flex: 5;
 				text-align: left;
 				padding-bottom: 40px;
-				
 			}
 			
 			#landing{
@@ -130,8 +131,7 @@
 			    padding-left: 50px;
 			    padding-right: 50px;
 			    letter-spacing: 3px;
-			   
-			}
+			 }
 			
 			
 			#food{
@@ -141,25 +141,22 @@
 			   margin-top: 50px;
 			   padding-left: 20px;
 			   padding-right: 20px;
-			   
-			}
+			 }
 			
 			.picture{
 				width: 80%;
 				margin: 30px;
 			}
-			
-			
 		}
 
 		</style>
-</head>
+	</head>
 <body>
 
 	<nav>
 		
-			<div></div><img id="logo" src="img/logo.png" width="90" alt="logo"/> 
-			<a id="logoNav">INDIAN <span style="color:#FE8532"> SPICE</span></a></div>
+		<div></div><img id="logo" src="img/logo.png" width="90" alt="logo"/> 
+		<a id="logoNav">INDIAN <span style="color:#FE8532"> SPICE</span></a></div>
 			<a class="navItem" href="#">Home</a>
 			<a class="navItem" href="#">Menu</a>
 			<a class="navItem" href="#">Photos</a>
@@ -168,10 +165,11 @@
 	</nav>
 	
 	<div id="video">
-	    	<video width="100%" controls="controls" autoplay preload="auto" loop muted>
-	        <source src="video/video.mp4#t=0,30">
-	    	</video>
-	   </div>
+	    <video width="100%" controls="controls" autoplay preload="auto" loop muted>
+	       <source src="video/video.mp4#t=0,30">
+	    </video>
+	    
+	</div>
 	   
 	<section id="landing">
 	    <div class="landing-message"><h2>Welcome to Indian Spice Restaurant.</h2></div>
