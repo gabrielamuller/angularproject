@@ -16,7 +16,13 @@ h2{
 }
 p{
 	font-size: .9rem;
+
 }
+
+.card_para{
+	display: none;
+}
+
 
 div{
 	border-radius: 4px;
@@ -135,8 +141,13 @@ li{
 .underline{
   text-decoration:underline;
 }
+
 .border{
   border: solid 5px #ccc;
+}
+
+.highlight{
+	background-color: pink;
 }
 
 
