@@ -1,0 +1,17 @@
+{
+  "name": "angular-todo",
+  "homepage": "https://github.com/gabrielamuller/stream1",
+  "authors": [
+    "Gabriela Muller <mullergabrielaa@gmail.com>"
+  ],
+  "description": "To do list project",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
